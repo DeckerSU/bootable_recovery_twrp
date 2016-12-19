@@ -669,5 +669,7 @@
 		<string name="theme_ver_err">Версия темы не соответствует версии TWRP. Используется тема по умолчанию.</string>
 		<string name="install_reboot">Устройство будет перезагружено через 5 секунд.</string>
 		<string name="up_a_level">(в родительский каталог)</string>
+		<!-- Decker -->
+		<string name="about_log">Compiled by Decker [ http://www.decker.su ]</string>
 	</resources>
 </language>

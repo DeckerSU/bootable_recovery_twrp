@@ -135,6 +135,10 @@ int main(int argc, char **argv) {
 	// Load up all the resources
 	gui_loadResources();
 
+        // [+] Decker
+	// gui_msg("about_log=Compiled by Decker [ http://www.decker.su ]");
+        gui_msg(Msg(msg::kHighlight, "about_log=Compiled by Decker [ http://www.decker.su ]")); 
+
 #ifdef HAVE_SELINUX
 	if (TWFunc::Path_Exists("/prebuilt_file_contexts")) {
 		if (TWFunc::Path_Exists("/file_contexts")) {
